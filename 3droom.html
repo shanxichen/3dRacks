@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>3D机房</title>
+	<style>
+		html{
+			height: 100%;
+		}
+		body{
+			font-size: 12px;
+			font-family:'Microsoft Yahei', Calibri, Verdana, Helvetica, Arial, sans-serif;
+		}
+		.tooltip{
+			position: absolute;
+			background: rgba(172,222,254,0.8);
+			border-radius: 5px;
+			padding: 10px;
+			padding-right: 20px;
+			display: none;
+			top:100px;
+			-moz-user-select: none;
+			-webkit-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+		.tooltip:after{
+			content: '';
+			margin-left:50%;
+			position: absolute;
+			bottom:-10px;
+			left:-10px;
+			border-top:10px solid rgba(172,222,254,0.8);
+			border-left:10px solid transparent;
+			border-right:10px solid transparent;
+		}
+		.tooltip table tr{margin: 10px;}
+		.tooltip-key{
+			width: 60px;
+			text-align: right;
+			display: inline-table;
+			margin-right: 5px;
+		}
+		.tooltip-value{
+			text-align: left;
+		}
+
+		table.gridtable {
+			font-family: verdana,arial,sans-serif;
+			font-size:11px;
+			color:#333333;
+			border-width: 1px;
+			border-color: #666666;
+			border-collapse: collapse;
+		}
+		table.gridtable th {
+			border-width: 1px;
+			padding: 6px;
+			border-style: solid;
+			border-color: #666666;
+			background-color: rgba(255,255,255,0.9);
+		}
+		table.gridtable td {
+			border-width: 1px;
+			padding: 6px;
+			border-style: solid;
+			border-color: #666666;
+			background-color: rgba(255,255,255,0.6);
+		}
+		#close_button:hover{
+			cursor:pointer;
+		}
+		#canvas{
+			display: none;
+		}
+		#serch_posi{
+			display: none;
+			position: absolute;
+			top: 10px;
+			left: 80px;
+			padding: 5px;
+			color: #fff;
+			border: 1px solid;
+			cursor: pointer;
+		}
+		#serch_posi:hover{
+			color: lightgreen;
+		}
+		#serch_box{
+			display: none;
+			position: absolute;
+			top: 50px;
+			left: 80px;
+			padding: 10px;
+			width: 20%;
+			max-width: 500px;
+			background: #9acfea;
+			border: 2px solid #2e6e9e;
+			opacity: 0.5;
+		}
+		#serch_text{
+			box-sizing: border-box;
+			width:100%;
+			height: 30px;
+		}
+		#serch_bot{
+			box-sizing: border-box;
+			width: 98.5%;
+			height: 100%;
+			max-height: 600px;
+			min-height: 50px;
+			margin: 10px 0 10px 5px;
+			overflow-x: auto;
+		}
+		#serch_close{
+			padding: 5px;
+			color: black;
+			border: 1px solid;
+			float: right;
+			margin-right: 10px;
+			cursor: pointer;
+		}
+		#serch_close:hover{
+			color: red;
+		}
+	</style>
+</head>
+
+<body onload = 'demo.init("3d_view")' style="margin:0px;">
+  
+        <div id='3d_view'></div>
+     	<canvas id="canvas" width="1" height="200"></canvas>
+		<div id="serch_posi">搜索</div>
+		<div id="serch_box">
+			<div id="serch_top">
+				<input type="text" id="serch_text">
+				<input type="text" id="serch_text_none" style="display: none">
+			</div>
+			<div id="serch_bot"><div id="serch_con"></div></div>
+			<div id="serch_close">close</div>
+		</div>
+
+        <script src="libs/jquery.min.js"></script>
+        <script src="libs/t.js"></script>
+        <script src="libs/twaver.js"></script>
+        <script src="libs/mono_toolkits.js"></script>
+		<script src="libs/tooltip.js"></script>
+      
+        <script src="Overview3D.js"></script>
+        <script src="CameraFollow.js"></script>
+        <script src="demo.js"></script>
+        <script src="inbuilts.js"></script>
+        <script src="data.js"></script>
+
+
+       
+       
+       <script>
+
+		//console.log("创建一个隐藏的div对象作为tooltip开始");
+		//创建一个隐藏的div对象作为tooltip
+
+		var tipDiv = document.createElement('div');
+		tipDiv.style.display="block";
+		tipDiv.style.width="200px";
+		//tipDiv.style.height="390px";
+		tipDiv.style["font-family"]="Calibri";
+		tipDiv.style["font-size"]="20px";
+		tipDiv.style["font-weight"]="600";
+		tipDiv.style["color"]="#00CC33";
+		tipDiv.style["border"]="2px solid #00CC33";
+		tipDiv.style.position="absolute";
+		tipDiv.style["padding"]="20px";
+		tipDiv.style["padding-top"]="0px";
+		tipDiv.style["padding-bottom"]="5px";
+		tipDiv.style.background="rgba(0,0,0,0.8)";
+		tipDiv.style["border-radius"]="5px";
+		tipDiv.style["position"]="relative";
+		tipDiv.style["top"]="-750px";
+		tipDiv.style["left"]="50px";
+		tipDiv.style["z-index"]="20000";
+		tipDiv.style["box-shadow"]="0 0 20px #00CC33";
+		tipDiv.style.visibility="hidden";
+		tipDiv.style["float"]="left";
+
+		//设置机柜的id
+		tipDiv.setAttribute("id","the_first_modal");
+
+		//**************************************************************************************************************
+		tipDiv.innerHTML =  
+                 
+                "<div  id='close_button'  title='close' style='width:100%;height:20px;color:#00CC33;text-align:right;border:0px solid #00cc33;float:right;margin-bottom:5px;'>x</div>"+
+                
+                "<hr>"+
+                
+				"<span style='font-size:14px;'>"+
+
+				"<b style='font-size:18px;' >节点详细信息</b>"+
+
+				"<p>节点名称：<span id='node_data_hostname'></span></p>"+
+
+				"<p>状态：<span id='node_data_status'></span></p>"+
+
+				"<p>CPU：<span id='node_data_processors_total' ></span></p>"+
+
+				"<p>内存：<span id='node_data_memory_total_kb'></span></p>"+
+
+				"<p>存储：<span id='node_data_disk_total_gb'></span></p>"+
+
+				"<p>类别：<span id='node_data_type' ></span></p>"+
+
+				"<p>OS IP：<span id='node_data_mgt_ipv4'></span></p>"+
+
+				"<p>BMC IP：<span   id='node_data_bmc_ipv4'></span></p>"+
+
+				"<p>所属组：<span id='node_data_groups'></span></p>"+
+
+				"<p>机器型号：<span  id='node_data_machine_model'></span></p>"+
+
+				"<hr><b style='font-size:18px;' >监控信息</b>"+
+
+				"<p>CPU(%)：<span  id='cpu_current_value'></span></p> "+
+
+				"<p>内存(%)：<span id='memory_current_value'></span></p>"+
+
+				"<p>网络(M)：<span id='network_current_value'></span></p>"+
+
+				"<p>硬盘(%)：<span id='disk_current_value'></span></p>"+
+
+				"<p>温度(°C)：<span id='temperature_current_value'></span></p>"+
+
+				"<p>能耗(W)：<span id='energy_current_value'></span></p>"+
+
+				"<p>load：<span id='load_current_value'></span></p>"+
+
+				"</span>";
+		//**************************************************************************************************************
+
+		document.body.appendChild(tipDiv);
+
+		//console.log("创建一个隐藏的div对象作为tooltip结束");
+		
+		
+		
+		$("#close_button").click(function(){
+			
+			//alert("点击了关闭按钮");
+			tipDiv.style.visibility="hidden";
+			
+		});
+	</script>
+	
+</body>
+</html>

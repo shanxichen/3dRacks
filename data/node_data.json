@@ -1,0 +1,24 @@
+{
+    "ret": "success",
+    "msg": "",
+    "node": {
+        "hostname": "hpc-mgt",
+        "status": "Idle",
+        "power_status": "Off",
+        "type": "head,login",
+        "mgt_ipv4": "172.20.1.1",
+        "bmc_ipv4": "172.20.1.2",
+        "processors_total": 1,
+        "memory_total": 1020348,
+        "disk_total": 29.61,
+        "groups": "group1, group2",
+        "machinetype": "3650m5",
+        "location": {
+            "rack_id": "1",
+            "chassis_id": "123",
+            "u": "7L",
+            "width": "0.5",
+            "height": "1"
+        }
+    }
+}

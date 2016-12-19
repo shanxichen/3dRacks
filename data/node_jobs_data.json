@@ -1,0 +1,26 @@
+ { 
+ 
+  "ret":"success",
+  "msg":"",
+  "jobs":[
+    {
+        "url": "http://10.240.212.28:8080/api/jobs/460/",
+        "jobid": "342",
+        "jobname": "tt_1234",
+        "queue": "batch",
+        "submiter":"hpcadmin",
+        "starttime": 1470217605,
+        "cpuscount": 1
+    },
+    {
+        "url": "http://10.240.212.28:8080/api/jobs/460/",
+        "jobid": "342",
+        "jobname": "tt_1234",
+        "queue": "batch",
+        "submiter":"hpcadmin",
+        "starttime": 1470217605,
+        "cpuscount": 1
+    }
+ ]
+   
+}  

@@ -1,0 +1,1436 @@
+{
+  "type": "racks",
+  "width": 60,
+  "height": 200,
+  "depth": 80,
+  "translates": [
+    [-220, 0, 150],
+    [-150, 0, 150],
+
+    [150, 0, 150],
+    [220, 0, 150],
+    [290, 0, 150],
+
+    [-290, 0, -150],
+    [-220, 0, -150],
+    [-150, 0, -150],
+
+    [150, 0, -150],
+    [220, 0, -150],
+    [290, 0, -150]
+
+  ],
+  "labels": ["1A01", "1A02", "1A03", "1A04", "1A05", "1A06", "1A07", "1A08", "1A09" ,"1A10","1A11"],
+  "ids": ["1", "2","2","2","2","2","2","2","2","2","2"],
+  "servers": {
+    "1A01": [
+      {
+        "type": "server",
+        "hostname": "dbserver1",
+        "id": "5",
+        "img": "servers-img/1U 3550.png",
+        "u": 1,
+        "position": 32
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "2",
+        "img": "servers-img/2U 3650 .png",
+        "u": 2,
+        "position": 28
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "3",
+        "img": "servers-img/3U filler.png",
+        "u": 3,
+        "position": 20
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "4",
+        "img": "servers-img/4U filr icon.png",
+        "u": 4,
+        "position": 10
+      }
+    ],
+    "1A02": [
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "25",
+        "img": "servers-img/1U 3550.png",
+        "u": 1,
+        "position": 31
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "26",
+        "img": "servers-img/2U 3650 .png",
+        "u": 2,
+        "position": 27
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "27",
+        "img": "servers-img/3U filler.png",
+        "u": 3,
+        "position": 19
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "28",
+        "img": "servers-img/4U filr icon.png",
+        "u": 4,
+        "position": 9
+      }
+    ],
+    "1A03": [
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "25",
+        "img": "servers-img/1U 3550.png",
+        "u": 1,
+        "position": 31
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "26",
+        "img": "servers-img/2U 3650 .png",
+        "u": 2,
+        "position": 27
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "27",
+        "img": "servers-img/3U filler.png",
+        "u": 3,
+        "position": 19
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "28",
+        "img": "servers-img/4U filr icon.png",
+        "u": 4,
+        "position": 9
+      }
+    ],
+    "1A04": [
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "25",
+        "img": "servers-img/1U 3550.png",
+        "u": 1,
+        "position": 31
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "26",
+        "img": "servers-img/2U 3650 .png",
+        "u": 2,
+        "position": 27
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "27",
+        "img": "servers-img/3U filler.png",
+        "u": 3,
+        "position": 19
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "28",
+        "img": "servers-img/4U filr icon.png",
+        "u": 4,
+        "position": 9
+      }
+    ],
+    "1A05": [
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "25",
+        "img": "servers-img/1U 3550.png",
+        "u": 1,
+        "position": 31
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "26",
+        "img": "servers-img/2U 3650 .png",
+        "u": 2,
+        "position": 27
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "27",
+        "img": "servers-img/3U filler.png",
+        "u": 3,
+        "position": 19
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "28",
+        "img": "servers-img/4U filr icon.png",
+        "u": 4,
+        "position": 9
+      }
+    ],
+    "1A06": [
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "25",
+        "img": "servers-img/1U 3550.png",
+        "u": 1,
+        "position": 31
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "26",
+        "img": "servers-img/2U 3650 .png",
+        "u": 2,
+        "position": 27
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "27",
+        "img": "servers-img/3U filler.png",
+        "u": 3,
+        "position": 19
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "28",
+        "img": "servers-img/4U filr icon.png",
+        "u": 4,
+        "position": 9
+      }
+    ],
+    "1A07": [
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "25",
+        "img": "servers-img/1U 3550.png",
+        "u": 1,
+        "position": 31
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "26",
+        "img": "servers-img/2U 3650 .png",
+        "u": 2,
+        "position": 27
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "27",
+        "img": "servers-img/3U filler.png",
+        "u": 3,
+        "position": 19
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "28",
+        "img": "servers-img/4U filr icon.png",
+        "u": 4,
+        "position": 9
+      }
+    ],
+    "1A08": [
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "25",
+        "img": "servers-img/1U 3550.png",
+        "u": 1,
+        "position": 31
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "26",
+        "img": "servers-img/2U 3650 .png",
+        "u": 2,
+        "position": 27
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "27",
+        "img": "servers-img/3U filler.png",
+        "u": 3,
+        "position": 19
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "28",
+        "img": "servers-img/4U filr icon.png",
+        "u": 4,
+        "position": 9
+      }
+    ],
+    "1A09": [
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "25",
+        "img": "servers-img/1U 3550.png",
+        "u": 1,
+        "position": 31
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "26",
+        "img": "servers-img/2U 3650 .png",
+        "u": 2,
+        "position": 27
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "27",
+        "img": "servers-img/3U filler.png",
+        "u": 3,
+        "position": 19
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "28",
+        "img": "servers-img/4U filr icon.png",
+        "u": 4,
+        "position": 9
+      }
+    ],
+    "1A10": [
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "25",
+        "img": "servers-img/1U 3550.png",
+        "u": 1,
+        "position": 31
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "26",
+        "img": "servers-img/2U 3650 .png",
+        "u": 2,
+        "position": 27
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "27",
+        "img": "servers-img/3U filler.png",
+        "u": 3,
+        "position": 19
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "28",
+        "img": "servers-img/4U filr icon.png",
+        "u": 4,
+        "position": 9
+      }
+    ],
+    "1A11": [
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "25",
+        "img": "servers-img/1U 3550.png",
+        "u": 1,
+        "position": 31
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "26",
+        "img": "servers-img/2U 3650 .png",
+        "u": 2,
+        "position": 27
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "27",
+        "img": "servers-img/3U filler.png",
+        "u": 3,
+        "position": 19
+      },
+      {
+        "type": "server",
+        "hostname": "db.server1",
+        "id": "28",
+        "img": "servers-img/4U filr icon.png",
+        "u": 4,
+        "position": 9
+      }
+    ]
+  },
+  "chassises": {
+    "1A01": [
+      {
+        "type": "chassis",
+        "id": "chassis1",
+        "img": "servers-img/re_chassis.png",
+        "u": 8,
+        "position": 42,
+        "cards": [
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "5",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 1
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "6",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 2
+          },
+          {
+            "type": "server",
+            "hostname": "db.server11",
+            "id": "7",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 3
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "8",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 4
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "9",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 5
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "10",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 6
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "11",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 7
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "12",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 8
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "13",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 9
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "14",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 10
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "15",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 11
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "16",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 12
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "17",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 13
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "18",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 14
+          }
+        ]
+      }
+    ],
+    "1A02": [
+      {
+        "type": "chassis",
+        "id": "chassis2",
+        "img": "servers-img/re_chassis.png",
+        "u": 8,
+        "position": 41,
+        "cards": [
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "29",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 1
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "30",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 2
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "31",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 3
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "32",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 4
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "33",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 5
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "34",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 6
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "35",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 7
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "36",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 8
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "37",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 9
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "38",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 10
+          }
+        ]
+      }
+    ],
+    "1A03": [
+      {
+        "type": "chassis",
+        "id": "chassis2",
+        "img": "servers-img/re_chassis.png",
+        "u": 8,
+        "position": 41,
+        "cards": [
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "29",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 1
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "30",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 2
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "31",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 3
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "32",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 4
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "33",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 5
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "34",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 6
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "35",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 7
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "36",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 8
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "37",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 9
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "38",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 10
+          }
+        ]
+      }
+    ],
+    "1A04": [
+      {
+        "type": "chassis",
+        "id": "chassis2",
+        "img": "servers-img/re_chassis.png",
+        "u": 8,
+        "position": 41,
+        "cards": [
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "29",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 1
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "30",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 2
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "31",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 3
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "32",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 4
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "33",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 5
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "34",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 6
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "35",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 7
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "36",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 8
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "37",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 9
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "38",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 10
+          }
+        ]
+      }
+    ],
+    "1A05": [
+      {
+        "type": "chassis",
+        "id": "chassis2",
+        "img": "servers-img/re_chassis.png",
+        "u": 8,
+        "position": 41,
+        "cards": [
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "29",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 1
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "30",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 2
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "31",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 3
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "32",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 4
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "33",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 5
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "34",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 6
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "35",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 7
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "36",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 8
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "37",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 9
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "38",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 10
+          }
+        ]
+      }
+    ],
+    "1A06": [
+      {
+        "type": "chassis",
+        "id": "chassis2",
+        "img": "servers-img/re_chassis.png",
+        "u": 8,
+        "position": 41,
+        "cards": [
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "29",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 1
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "30",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 2
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "31",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 3
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "32",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 4
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "33",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 5
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "34",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 6
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "35",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 7
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "36",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 8
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "37",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 9
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "38",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 10
+          }
+        ]
+      }
+    ],
+    "1A07": [
+      {
+        "type": "chassis",
+        "id": "chassis2",
+        "img": "servers-img/re_chassis.png",
+        "u": 8,
+        "position": 41,
+        "cards": [
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "29",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 1
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "30",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 2
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "31",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 3
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "32",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 4
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "33",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 5
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "34",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 6
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "35",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 7
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "36",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 8
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "37",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 9
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "38",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 10
+          }
+        ]
+      }
+    ],
+    "1A08": [
+      {
+        "type": "chassis",
+        "id": "chassis2",
+        "img": "servers-img/re_chassis.png",
+        "u": 8,
+        "position": 41,
+        "cards": [
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "29",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 1
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "30",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 2
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "31",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 3
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "32",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 4
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "33",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 5
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "34",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 6
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "35",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 7
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "36",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 8
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "37",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 9
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "38",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 10
+          }
+        ]
+      }
+    ],
+    "1A09": [
+      {
+        "type": "chassis",
+        "id": "chassis2",
+        "img": "servers-img/re_chassis.png",
+        "u": 8,
+        "position": 41,
+        "cards": [
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "29",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 1
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "30",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 2
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "31",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 3
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "32",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 4
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "33",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 5
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "34",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 6
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "35",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 7
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "36",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 8
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "37",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 9
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "38",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 10
+          }
+        ]
+      }
+    ],
+    "1A10": [
+      {
+        "type": "chassis",
+        "id": "chassis2",
+        "img": "servers-img/re_chassis.png",
+        "u": 8,
+        "position": 41,
+        "cards": [
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "29",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 1
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "30",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 2
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "31",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 3
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "32",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 4
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "33",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 5
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "34",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 6
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "35",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 7
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "36",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 8
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "37",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 9
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "38",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 10
+          }
+        ]
+      }
+    ],
+    "1A11": [
+      {
+        "type": "chassis",
+        "id": "chassis2",
+        "img": "servers-img/re_chassis.png",
+        "u": 8,
+        "position": 41,
+        "cards": [
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "29",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 1
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "30",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 2
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "31",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 3
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "32",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 4
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "33",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 5
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "34",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 6
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "35",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 7
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "36",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 8
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "37",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 9
+          },
+          {
+            "type": "server",
+            "hostname": "db.server1",
+            "id": "38",
+            "img": "servers-img/1.FSM ITME.png",
+            "u": 1,
+            "position": 10
+          }
+        ]
+      }
+    ]
+  }
+}
